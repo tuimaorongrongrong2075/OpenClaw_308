@@ -5,7 +5,7 @@ _章鱼的触手工具箱,一览无余_
 ## 📧 邮件检查脚本
 
 ### email-checker.py (Python)
-**路径:** `/root/.openclaw/workspace-feishu-ops/email-checker.py`  
+**路径:** `/root/.openclaw/workspace-feishu-ops/workspace-feishu-ops/scripts/email-checker.py`  
 **权限:** `rwxr-xr-x (755)`  
 **大小:** 7.5 KB  
 **用途:** 智能邮件检查器
@@ -20,22 +20,22 @@ _章鱼的触手工具箱,一览无余_
 
 **运行方式:**
 ```bash
-cd /root/.openclaw/workspace-feishu-ops
-python3 email-checker.py
+cd /root/.openclaw/workspace-feishu-ops/workspace-feishu-ops
+python3 scripts/email-checker.py
 ```
 
 **输出文件:** `email-check-result.json`
 
 ### check-email.sh (Shell)
-**路径:** `/root/.openclaw/workspace-feishu-ops/check-email.sh`  
+**路径:** `/root/.openclaw/workspace-feishu-ops/workspace-feishu-ops/scripts/check-email.sh`  
 **权限:** `rwxr-xr-x (755)`  
 **大小:** 990 B  
 **用途:** Shell 邮箱检查脚本 (占位符)
 
 **运行方式:**
 ```bash
-cd /root/.openclaw/workspace-feishu-ops
-./check-email.sh
+cd /root/.openclaw/workspace-feishu-ops/workspace-feishu-ops
+./scripts/check-email.sh
 ```
 
 ---
@@ -43,7 +43,7 @@ cd /root/.openclaw/workspace-feishu-ops
 ## 🚀 Git 备份脚本
 
 ### commit.sh
-**路径:** `/root/.openclaw/workspace-feishu-ops/commit.sh`  
+**路径:** `/root/.openclaw/workspace-feishu-ops/workspace-feishu-ops/scripts/commit.sh`  
 **权限:** `rwxr-xr-x (755)`  
 **大小:** 1 KB  
 **用途:** 自动提交和推送到 GitHub
@@ -56,8 +56,8 @@ cd /root/.openclaw/workspace-feishu-ops
 
 **运行方式:**
 ```bash
-cd /root/.openclaw/workspace-feishu-ops
-./commit.sh
+cd /root/.openclaw/workspace-feishu-ops/workspace-feishu-ops
+./scripts/commit.sh
 ```
 
 **提交信息格式:**
