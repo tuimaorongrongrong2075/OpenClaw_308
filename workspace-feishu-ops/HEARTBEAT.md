@@ -5,7 +5,7 @@ _章鱼的6小时体检,不漏掉任何蛛丝马迹_
 ## 检查频率
 
 **每 6 小时一次** (北京时间: 02:00, 08:00, 14:00, 20:00)
-**邮件检查: 每 2 小时一次** (与心跳错开: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00)
+**邮件检查:** 独立定时任务 (北京时间: 09:00, 16:00)
 
 ## 检查项目
 
@@ -138,25 +138,7 @@ sensors 2>/dev/null || echo "需要安装 lm-sensors"
 smartctl -H /dev/vda 2>/dev/null || echo "需要安装 smartmontools"
 ```
 
-### 7. 邮件检查 (每2小时)
-```bash
-cd /root/.openclaw/workspace-feishu-ops
-python3 email-checker.py
-```
-**检查内容:**
-- Gmail (个人) - 最高优先级
-- QQ 工作邮箱 - 高优先级
-- QQ 个人邮箱 - 中等优先级
-
-**告警规则:**
-- 🔴 紧急邮件 → 立即通知姐姐
-- 🟡 重要邮件 → 草稿备好 + 飞书通知
-- 🟢 普通邮件 → 记录存档
-
-**输出文件:**
-- `email-check-result.json` - 检查结果详细记录
-
-### 8. 飞书文档同步
+### 7. 飞书文档同步
 ```bash
 # 检查飞书文件夹同步状态
 # 飞书文件夹: https://sunsound.feishu.cn/drive/folder/SHWTfJXiilYYM1dVnFPcCcFknwh
@@ -164,7 +146,7 @@ python3 email-checker.py
 - 上传最新运维报告
 - 同步本地 memory 到飞书文档
 
-### 9. 备份状态检查
+### 8. 备份状态检查
 ```bash
 # 检查最近的备份
 ls -lht /root/.openclaw/workspace-feishu-ops/.git/logs/refs/heads/ | head -5
@@ -176,7 +158,7 @@ git status --short
 - 超过 24 小时未提交 → 提醒
 - 未提交的重要更改 → 告警
 
-### 10. 自我健康检查
+### 9. 自我健康检查
 ```bash
 # 工作目录大小
 du -sh /root/.openclaw/workspace-feishu-ops
