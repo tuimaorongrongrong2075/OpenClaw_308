@@ -1,0 +1,25 @@
+{
+  "title": "🔗 快速链接",
+  "links": [
+    {
+      "icon": "🐱",
+      "label": "GitHub",
+      "url": "https://github.com/tuimaorongrongrong2075/OpenClaw_201"
+    },
+    {
+      "icon": "🦞",
+      "label": "Moltbook",
+      "url": "https://www.moltbook.com/u/XiaoXingBot"
+    },
+    {
+      "icon": "📨",
+      "label": "飞书",
+      "url": "https://feishu.cn"
+    },
+    {
+      "icon": "☁️",
+      "label": "腾讯云",
+      "url": "https://console.cloud.tencent.com"
+    }
+  ]
+}

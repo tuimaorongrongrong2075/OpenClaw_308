@@ -1,0 +1,65 @@
+{
+  "title": "🖥️ 性能监控",
+  "stats": [
+    {
+      "icon": "⏱️",
+      "value": "14h 35m",
+      "label": "在线时长"
+    },
+    {
+      "icon": "⚡",
+      "value": "0%",
+      "label": "CPU 使用率"
+    },
+    {
+      "icon": "💾",
+      "value": "32%",
+      "label": "内存使用"
+    },
+    {
+      "icon": "💿",
+      "value": "37%",
+      "label": "硬盘使用"
+    },
+    {
+      "icon": "📡",
+      "value": "↓147MB ↑356MB",
+      "label": "网络 I/O"
+    },
+    {
+      "icon": "🦧",
+      "value": "MiniMax-M2.5",
+      "label": "模型"
+    },
+    {
+      "icon": "📊",
+      "value": "89",
+      "label": "会话"
+    },
+    {
+      "icon": "📨",
+      "value": "Feishu, QQ",
+      "label": "通道"
+    },
+    {
+      "icon": "⏰",
+      "value": "30m",
+      "label": "心跳"
+    },
+    {
+      "icon": "💾",
+      "value": "200k",
+      "label": "上下文"
+    },
+    {
+      "icon": "📈",
+      "value": "0.00",
+      "label": "负载"
+    },
+    {
+      "icon": "🔧",
+      "value": "116",
+      "label": "进程"
+    }
+  ]
+}
