@@ -1,0 +1,63 @@
+{
+  "checkTime": "2026-03-09 01:04:02",
+  "totalSessions": 1,
+  "sessions": [
+    {
+      "sessionId": "4650f385-9c96-409f-bdf2-81d73206db9d",
+      "startTime": "2026-03-08 06:34:15",
+      "lastMessageTime": "2026-03-09 01:03:59",
+      "messages": [
+        {
+          "role": "toolResult",
+          "text": "=== 心跳检查开始: 2026-03-09 01:03:23 ===\n\n## 🔗 GitHub 状态\n M scripts/heartbeat.sh\n?? ../.openclaw/\n?? ../AGENTS.md\n?? ../HEARTBEAT.md\n?? ../IDENTITY.md\n?? ../SOUL.md\n?? ../TOOLS.md\n?? ../USER.md\n9cee012 doc",
+          "timestamp": 1772989405956
+        },
+        {
+          "role": "assistant",
+          "text": "",
+          "timestamp": 1772989405961
+        },
+        {
+          "role": "toolResult",
+          "text": "/root/.local/share/pnpm/openclaw\n/root/.local/share/pnpm/openclaw: 20: exec: node: not found",
+          "timestamp": 1772989407266
+        },
+        {
+          "role": "assistant",
+          "text": "",
+          "timestamp": 1772989407272
+        },
+        {
+          "role": "toolResult",
+          "text": "Successfully wrote 5233 bytes to /root/.openclaw/workspace-feishu-ops/workspace-feishu-ops/scripts/check-sessions.py",
+          "timestamp": 1772989414856
+        },
+        {
+          "role": "assistant",
+          "text": "",
+          "timestamp": 1772989414863
+        },
+        {
+          "role": "toolResult",
+          "text": "=== 会话状态检查 ===\n检查时间: 2026-03-09 01:03:36\n\n总会话数: 1\n\n### 会话 1\n**ID:** 4650f385-9c96-409f-b...\n**开始时间:** 2026-03-08 06:34:15\n**最后更新:** 2026-03-09 01:03:34\n**最近关键词:**\n  - [toolResult] successfully, wrote,",
+          "timestamp": 1772989416358
+        },
+        {
+          "role": "assistant",
+          "text": "",
+          "timestamp": 1772989416365
+        },
+        {
+          "role": "toolResult",
+          "text": "Successfully wrote 1944 bytes to /root/.openclaw/workspace-feishu-ops/workspace-feishu-ops/scripts/heartbeat.sh",
+          "timestamp": 1772989439088
+        },
+        {
+          "role": "assistant",
+          "text": "",
+          "timestamp": 1772989439095
+        }
+      ]
+    }
+  ]
+}
