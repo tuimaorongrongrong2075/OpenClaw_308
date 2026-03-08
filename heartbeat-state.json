@@ -1,0 +1,25 @@
+{
+  "lastCheck": null,
+  "lastSync": null,
+  "lastEmailCheck": null,
+  "alerts": [],
+  "trends": {
+    "cpuUsage": [],
+    "memoryUsage": [],
+    "diskUsage": [],
+    "loadAverage": []
+  },
+  "server": {
+    "nickname": "飞龙在天",
+    "hostname": "VM-0-6-ubuntu",
+    "internalIP": "10.4.0.6",
+    "externalIP": "待确认",
+    "cpuCores": 2,
+    "cpuModel": "AMD EPYC 9754",
+    "totalMemory": "3.6Gi",
+    "totalDisk": "59Gi",
+    "swapSize": "9.9Gi"
+  },
+  "githubRepo": "https://github.com/tuimaorongrongrong2075/OpenClaw_308",
+  "feishuFolder": "https://sunsound.feishu.cn/drive/folder/SHWTfJXiilYYM1dVnFPcCcFknwh"
+}

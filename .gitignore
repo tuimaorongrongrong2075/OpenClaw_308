@@ -1,0 +1,42 @@
+# 敏感信息
+.env
+.env.local
+.env.*.local
+
+# SSH 密钥
+.ssh/
+*.pem
+*.key
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# 记忆和状态 (可选同步)
+# memory/
+# heartbeat-state.json
