@@ -1,0 +1,42 @@
+{
+  "version": "1.1",
+  "last_updated": "2026-03-05",
+  "keywords": {
+    "胡小姐": {
+      "tags": ["owner", "user", "主人", "姐姐"],
+      "related": ["小猩", "FL Studio", "Serum2"]
+    },
+    "小猩": {
+      "tags": ["assistant", "agent", "猩猩", "🦧"],
+      "related": ["胡小姐", "MiniMax-M2.5"]
+    },
+    "生日": {
+      "tags": ["2月1日", "纪念日", "同天"],
+      "related": ["胡小姐", "小猩"]
+    },
+    "FL Studio": {
+      "tags": ["音乐制作", "DAW", "学习"],
+      "related": ["胡小姐", "Serum2"]
+    },
+    "Serum2": {
+      "tags": ["合成器", "插件", "学习"],
+      "related": ["胡小姐", "FL Studio"]
+    },
+    "记忆系统": {
+      "tags": ["EverMemOS", "三层架构", "MEMORY", "Memo Infra"],
+      "related": ["小猩", "架构"]
+    },
+    "看板": {
+      "tags": ["dashboard", "kanban", "geek"],
+      "related": ["JSON", "飞书文档"]
+    },
+    "cron": {
+      "tags": ["定时任务", "上海时间", "--tz Asia/Shanghai"],
+      "related": ["时区", "定时"]
+    },
+    "飞书": {
+      "tags": ["文档", "云文档", "feishu-doc"],
+      "related": ["create", "write"]
+    }
+  }
+}

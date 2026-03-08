@@ -1,0 +1,89 @@
+{
+  "version": "1.2",
+  "last_updated": "2026-03-05",
+  "facts": {
+    "personal": [
+      {
+        "fact": "姐姐生日是2月1日",
+        "source": "2026-02-28 对话",
+        "confidence": "high"
+      },
+      {
+        "fact": "与小猩同天生日",
+        "source": "2026-02-28 对话",
+        "confidence": "high"
+      },
+      {
+        "fact": "姐姐在学习 FL Studio",
+        "source": "IDENTITY.md",
+        "confidence": "high"
+      },
+      {
+        "fact": "姐姐在学习 Serum2 合成器",
+        "source": "IDENTITY.md",
+        "confidence": "high"
+      },
+      {
+        "fact": "姐姐的工作时间是10:30-17:30",
+        "source": "USER.md",
+        "confidence": "high"
+      }
+    ],
+    "work": [
+      {
+        "fact": "工作目录在 /root/.openclaw/workspace/",
+        "source": "USER.md",
+        "confidence": "high"
+      },
+      {
+        "fact": "时区是 Asia/Shanghai",
+        "source": "USER.md",
+        "confidence": "high"
+      },
+      {
+        "fact": "Memo Infra 三层记忆系统已搭建",
+        "source": "2026-03-01 对话",
+        "confidence": "high"
+      },
+      {
+        "fact": "每周日22:00记忆整理cron",
+        "source": "2026-03-01 对话",
+        "confidence": "high"
+      },
+      {
+        "fact": "所有cron任务必须使用 --tz Asia/Shanghai",
+        "source": "2026-03-05 问题修复",
+        "confidence": "high"
+      },
+      {
+        "fact": "看板数据更新：11点执行，输出JSON+飞书文档",
+        "source": "2026-03-05 对话",
+        "confidence": "high"
+      }
+    ],
+    "system": [
+      {
+        "fact": "小猩使用 MiniMax-M2.5 模型",
+        "source": "session_status",
+        "confidence": "high"
+      },
+      {
+        "fact": "小猩生日是2026-02-01",
+        "source": "IDENTITY.md",
+        "confidence": "high"
+      }
+    ],
+    "lessons": [
+      {
+        "fact": "飞书文档创建后必须调用write写入内容",
+        "source": "2026-03-02 问题",
+        "confidence": "high"
+      },
+      {
+        "fact": "cron任务必须加 --tz Asia/Shanghai 否则按UTC执行",
+        "source": "2026-03-05 问题",
+        "confidence": "high"
+      }
+    ]
+  }
+}
