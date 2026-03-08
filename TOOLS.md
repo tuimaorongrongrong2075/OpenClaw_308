@@ -88,6 +88,7 @@ env | grep -i "GITHUB\|SSH\|KEY\|TOKEN" | head -20
 ## 飞书文档
 
 - **运维文件夹:** https://sunsound.feishu.cn/drive/folder/SHWTfJXiilYYM1dVnFPcCcFknwh
+- **服务器状态报告:** https://feishu.cn/docx/I8YXdJjC2ogO9kxx1hRcHQ2HnMg
 - **用途:** 存储运维报告、事故复盘、定期检查记录
 - **同步频率:** 每 6 小时(随心跳)
 

@@ -1,8 +1,4 @@
 {
-  "initialized": true,
-  "initializedAt": "2026-03-08T20:13:00+08:00",
-  "lastBackup": "2026-03-08T20:15:00+08:00",
-  "agentName": "胡搞",
-  "agentType": "运维章鱼",
-  "version": "1.0.0"
+  "version": 1,
+  "bootstrapSeededAt": "2026-03-08T12:49:18.277Z"
 }
